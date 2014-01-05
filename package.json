@@ -1,0 +1,26 @@
+{
+  "name": "lighapi-sample-app",
+  "version": "0.0.1",
+  "description": "Light API sample app.",
+  "main": "app.js",
+  "dependencies": {
+    "lightapi": "~0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/palra/lightapi-sample-app.git"
+  },
+  "keywords": [
+    "lightapi"
+  ],
+  "author": "Loïc Blablaa",
+  "license": "GNU v2",
+  "bugs": {
+    "url": "https://github.com/palra/lightapi-sample-app/issues"
+  },
+  "homepage": "https://github.com/palra/lightapi-sample-app"
+}
