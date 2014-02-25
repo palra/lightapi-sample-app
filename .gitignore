@@ -188,6 +188,8 @@ FakesAssemblies/
 # NodeJS VS project files
 *.njsproj
 
+*.sln
+
 # =========================
 # Windows detritus
 # =========================

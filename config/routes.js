@@ -10,7 +10,8 @@
 **/
 
 module.exports = {
-	"/:name": "IndexController:index"
+	"GET /": "IndexController:index",
+	"POST /": "IndexController:register",
 
 	/* It could be defined as :
 

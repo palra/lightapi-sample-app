@@ -1,3 +1,6 @@
-Hello <%= name %> !
-
-<% /* This is some basic EJS template file. In the "<% ... %>" tags, you can write JavaScript code. The 'name' variable was initialized in the controller, through the object passed as the second parameted of (res.render' function. Please refer to EJS documentation for further details. */ %>
+<h1>Registering</h1>
+<form action="/" method="POST">
+	<input type="email" name="email" placeholder="Email" />
+	<input type="password" name="password" placeholder="Password">
+	<input type="submit" value="Send">
+</form>
