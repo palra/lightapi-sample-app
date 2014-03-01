@@ -1,0 +1,12 @@
+<%# api/views/index.js %>
+
+<% if((users || []).length != 0) { %>
+	<h1>Users</h1>
+	<ul>
+		<% for(var i = 0; i < users.length; i++) { %>
+			<li><%= users[i].email %></li>
+		<% } %>
+	</ul>	
+<% } else { %>
+	<h1>No users</h1>
+<% } %>
