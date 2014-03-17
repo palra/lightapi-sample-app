@@ -2,7 +2,7 @@
 * IndexController.js
 *
 * A controller module must export an object associationg a method name to a function.
-* As with Express.js, two arguments will pe passed to theses functions : the request and the response. For further documentation about theses arguments, please refer to Express.js documentation.
+* As with Express.js, two arguments will be passed to theses functions : the request and the response. For further documentation about theses arguments, please refer to Express.js documentation.
 *
 **/
 

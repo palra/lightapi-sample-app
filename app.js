@@ -1,1 +1,1 @@
-require("lightapi");
+require("lightapi").run();
