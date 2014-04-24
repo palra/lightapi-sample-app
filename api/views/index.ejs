@@ -1,8 +1,9 @@
+<% layout("layout") -%>
+
 <h1>Registering</h1>
-<form action="/" method="POST">
+
+<%- _form_start(form) %>
 	<input type="email" name="email" placeholder="Email" />
 	<input type="password" name="password" placeholder="Password">
 	<input type="submit" value="Send">
-</form>
-
-<!-- Some basic HTML ... -->
+<%- _form_end(form) %>

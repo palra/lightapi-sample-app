@@ -19,7 +19,8 @@ module.exports = {
 	**/
 	
 	index: function (req, res) {
-		res.render("index.ejs");
+        var form = this.getForm("register", req);
+		res.render("index.ejs", {form: form});
 	},
 
     /**
